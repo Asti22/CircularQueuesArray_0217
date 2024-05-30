@@ -74,6 +74,7 @@ public:
             cout <<"Queue is empety\n";
             return;
         }
+        cout <<"\nElement in the queue are...\n";
 
     }
 };
