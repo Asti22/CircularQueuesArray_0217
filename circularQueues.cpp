@@ -27,15 +27,15 @@ public:
 
         //cek apakah antrian kosong
 
-        if(FRONT == max -1){
+        if(FRONT == -1){
             FRONT = 0;
-            FRONT = 0;
+            REAR = 0;
         }
         else {
         //jika RAER berada di posisi terakhir array, kembali ke awal array
-        if (REAR == max - 1)
+        if (REAR == max- 1)
             REAR = 0;
-            else
+        else
               REAR = REAR +1;
 
         }
