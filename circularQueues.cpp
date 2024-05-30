@@ -17,5 +17,13 @@ public:
         int num;
         cout <<"Enter a number:";
         cin>>num;
+        cout <<endl;
+
+        //cek apakah antrian kosong
+
+        if(FRONT == max -1){
+            FRONT = 0;
+            FRONT = 0;
+        }
     }
 };
